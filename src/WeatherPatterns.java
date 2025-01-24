@@ -26,12 +26,12 @@ public class WeatherPatterns {
             current = temperatures[i];
             for(int j = i; j < size; j++){
                 if(temperatures[j] > current){
-                    list[i].add(temperatures[j]);
+                    list[i].add(j);
                 }
             }
         }
         for(int i = 0; i < size; i++){
-            longest = findLongest(list, i, paths);
+            longest = Math.max(longest, findLongest(list, i, paths));
         }
         return longest;
     }
@@ -45,21 +45,6 @@ public class WeatherPatterns {
         }
         paths[index] = 1 + run;
         return paths[index];
-       /*
-       LongestPathTo(Vertex V):
-	        len = 0;
-            For each vertex V' leading to V:
-		        len = Max( len,  LongestPathTo(V'))
-                return 1 + len;
-         */
-          /*
-       Idea: let's keep track of the longest paths for each node in an array.
-      During our recursive step: before recursing, check to see if
-      we have been to that node already. If so, use its saved value.
-      If we have never been there before, then recurse.
-      When done recursing, add its new value to our array.
-        */
-
     }
 }
 
