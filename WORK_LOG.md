@@ -1,10 +1,11 @@
-Name: Elijah Chandler
+Name: Elijah Chandl
 
-| Date    |     Time      |                                                                  Update |
-|:--------|:-------------:|------------------------------------------------------------------------:|
-| April 5 |    9-10pm     |                              I tried to write abstract, efficient code. |
-| Jan 14  |  1:00 -1:45   |                                I pondered initial ideas and strategies. |
-| Jan 16  | 10:50 - 11:35 | I continued to think about strategies and started coding first attempt. |
+| Date    |     Time      |                                                                                                                                                                                                                                                                                                                                                                                                                  Update |
+|:--------|:-------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| April 5 |    9-10pm     |                                                                                                                                                                                                                                                                                                                                                                              I tried to write abstract, efficient code. |
+| Jan 14  |  1:00 -1:45   |                                                                                                                                                                                                                                                                                                                                                                                I pondered initial ideas and strategies. |
+| Jan 16  | 10:50 - 11:35 |                                                                                                                                                                                                                                                                                                                                                 I continued to think about strategies and started coding first attempt. |
+| Jan 23  | 10:30 - 11:00 | I started over now knowing that I need an adjacency list. I set up my array of arraylists for each day. I also added 2 for loops to go through each temperature and to find how many greater temperatures there are after that temperate and adding it to the arraylist in the adjecency list I made before. I also added pseudocode from the theory slide to a findlongest method a made that I might use recursively. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
